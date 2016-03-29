@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Prime Peer Challenge</title>
+
+  <!-- Libraries -->
+  <script src="jquery-2.2.2.min.js"></script>
+
+  <!-- Our Development -->
+  <link rel="stylesheet" href="style.css" />
+  <script src="app.js"></script>
+</head>
+<body>
+  <h1>Welcome New Employees!!!!</h1>
+  <p>Total Salaries:</p><p id="totalSalaries"></p>
+  <div class="employeeInput">
+    <h2>Input New Employees Here</h2>
+    <label for="firstName">First Name:</label>
+    <input type="text" name="nameFirst" id="firstName" />
+    <br />
+    <label for="lastName">Last Name:</label>
+    <input type="text" name="nameLast" id="lastName" />
+    <br />
+    <label for="employeeNumber">Employee Number:</label>
+    <input type="number" name="numberEmployee" id="employeeNumber" />
+    <br />
+    <label for="jobTitle">Title:</label>
+    <input type="text" name="titleJob" id="jobTitle" />
+    <br />
+    <label for="reviewScore">Review Score:</label>
+    <input type="range" min="1" max="5" name="scoreReview" id="reviewScore" />
+    <p id="displayScore"></p>
+    <br />
+    <label for="annualSalary">Salary:</label>
+    <input type="text" name="salaryAnnual" id="annualSalary" />
+    <br />
+    <button id="create">Create New Employee</button>
+  </div>
+  <table>
+    <tr>
+      <th>
+        First Name
+      </th>
+      <th>
+        Last Name
+      </th>
+      <th>
+        Employee Number
+      </th>
+      <th>
+        Title
+      </th>
+      <th>
+        Review Score
+      </th>
+      <th>
+        Salary
+      </th>
+      <th>
+        Remove Employee
+      </th>
+    </tr>
+  </table>
+</body>
+</html>
